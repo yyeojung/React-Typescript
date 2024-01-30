@@ -1,38 +1,18 @@
 .App {
-  text-align: center;
+    text-align: center;
+    width: 30rem;
+    margin: 0 auto;
+    background-color: beige;
+    min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list_container {
+    padding: 2rem
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+button {background: transparent; border: none; outline: none; cursor: pointer;}
+.list_container .container {display: flex; width: 23rem; margin: 1rem auto; align-items: center; justify-content: space-between;}
+.list_container .item_container {display: flex; align-items: center;}
+.complete_btn {margin-right: 0.5rem;}
+.list_container .complete_btn {width: 1rem; height: 1rem; background: #fff; border: 1px solid #000; border-radius: 0;}
+.btn_container button {width: 1.4rem; height: 1.4rem;}
+input {height: 1.5rem; padding: .5rem;}
+.create_container button {background: #fff; border: 1px solid #000; margin-left: 1rem; padding: .2rem;}
